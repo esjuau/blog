@@ -1,0 +1,13 @@
+/* assets/css/extended/custom.css */
+
+/* ÄLÄ laita @import-sääntöä tähän */
+
+body {
+    font-family: 'EB Garamond', Garamond, Georgia, serif;
+    /* Lisää tarvittaessa tarkempi selektori tai !important, jos tämä ei riitä */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', Garamond, Georgia, serif;
+    /* Lisää tarvittaessa tarkempi selektori tai !important, jos tämä ei riitä */
+}
