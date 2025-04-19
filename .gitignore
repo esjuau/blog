@@ -2,3 +2,15 @@
 ./public
 .hugo_build.lock
 ./resources
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, GoLand etc.)
+.idea/
