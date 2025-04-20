@@ -9,16 +9,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #ffffff;
     padding: 25px 30px;
     border-radius: 8px;
-    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);*/
-    border: none; /* Ei reunoja täällä */
+    border: none;
 }
 .post-entry {
     background-color: #ffffff;
     padding: 20px;
-    /*margin-bottom: 25px;*/
     border-radius: 8px;
-    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);*/
-    border: none; /* Ei reunoja täällä */
+    border: none;
 }
 body.dark {
     background-color: #1a1a1d;
@@ -29,71 +26,25 @@ body.dark .main {
 }
 body.dark .post-entry {
     background-color: #252529;
-    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);*/
-}
-
-
-/* === YLÄTUNNISTEEN PUNAINEN ALAREUNA (Elegantti korostus) === */
-
-:root {
-    /* Punainen korostusväri */
-    --accent-color-light: #d32f2f;  /* Punainen vaaleassa tilassa */
-    --accent-color-dark: #ef5350;   /* Kirkkaampi punainen tummassa tilassa */
 }
 
 .post-content p {
-    font-size: 1.1rem; /* Kokeile tätä arvoa, voit säätää sitä tarpeen mukaan (esim. 1.2rem, 16px, 1.1em) /
-/ Voit myös säätää riviväliä tarvittaessa: /
-/ line-height: 1.7; */
+    font-size: 1.1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* assets/css/extended_custom.css */
-
-/* ... (Aiemmat CSS-sääntösi tähän) ... */
-
-
-/* === ETUSIVUN (LISTANÄKYMIEN) LEIPÄTEKSTIN SUURENNUS === */
-
-/* Kohdista kappale-elementteihin (p) .post-entry-laatikoiden sisällä. */
-/* Tämä vaikuttaa yleensä postauslistojen tiivistelmiin/excerpt-teksteihin. */
 .post-entry p {
-    font-size: 1.1rem; /* Kokeile arvoja, esim. 1.1rem, 1.15rem, 17px, 18px */
-    /* Oletus on usein 1rem tai 16px */
-
-    /* Voit joutua säätämään myös riviväliä (line-height), */
-    /* jotta teksti näyttää ilmavammalta isommalla koolla. */
-    line-height: 1.6; /* Kokeile esim. 1.6, 1.7 */
-
-    /* Jos teeman omat säännöt ovat vahvempia, tämä ei välttämättä toimi. */
-    /* Kokeile silloin !important -määrettä (mutta vain tarvittaessa): */
-    /* font-size: 1.1rem !important; */
-}
-
-/* Jos tiivistelmissä käytetään myös listoja (li), voit lisätä ne valitsimeen: */
-/*
-.post-entry p,
-.post-entry li {
     font-size: 1.1rem;
     line-height: 1.6;
 }
-*/
 
-/* Huom: Tämä sääntö kohdistuu nimenomaan .post-entry-elementtien sisällä oleviin */
-/* kappaleisiin, jotka ovat tyypillisiä listanäkymissä. */
-/* Jos haluat muuttaa KAIKKEA leipätekstiä sivustolla, tarvitaan yleisempi sääntö */
-/* (esim. '.post-content p') tai teeman fonttikoon CSS-muuttujan muokkaus (jos sellainen on). */
+h1.post-title svg {
+    display: none;
+}
 
+h1.post-title svg {
+    display: none !important; /* !important voi auttaa, jos teeman omat säännöt ovat hyvin vahvoja */
+}
 
-/* ... (Loput CSS-säännöt, kuten dark mode jne.) ... */
-/* Fonttikoko periytyy yleensä dark modeen, ellet erikseen määrittele sille eri kokoa. */
-
+.entry-hint svg {
+    display: none !important;
+}
