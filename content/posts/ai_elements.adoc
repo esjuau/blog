@@ -1,0 +1,20 @@
+---
+title: "Math Test"
+date: 2025-04-19
+draft: false
+math: true
+---
+Tiivistelmä.
+<!--more-->
+
+== Testi
+
+:stem: katex
+
+Tässä inline stem:[a^2 + b^2 = c^2].
+
+Tässä block:
+[stem]
+++++
+\sqrt{x}
+++++
