@@ -33,10 +33,11 @@ body.dark .post-entry {
 }
 
 .post-entry p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6;
 }
 
+/* hide the edit button */
 h1.post-title svg {
     display: none;
 }
@@ -48,3 +49,9 @@ h1.post-title svg {
 .entry-hint svg {
     display: none !important;
 }
+
+/* hide the footer */
+footer.footer span {
+    display: none;
+}
+
