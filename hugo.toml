@@ -2,6 +2,8 @@ baseURL = 'https://esjuau.github.io/blog/'
 languageCode = 'en-us'
 title = 'My Blog About Anything'
 theme = 'papermod'
+summarySeparator = "<!--more-->"
+
 
 [security]
   enableInlineShortcodes = true
